@@ -5,6 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarModule } from './components/navbar/navbar.module';
 import { DocModule } from './components/medico/doc.module';
+import { LoginModule } from './components/login/login.module';
+import { HttpClientModule } from '@angular/common/http';
+import { HomeModule } from './components/home/home.module';
+import { ConsultaModule } from './components/cad-consultas/consulta.module';
 
 @NgModule({
   declarations: [
@@ -13,8 +17,12 @@ import { DocModule } from './components/medico/doc.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DocModule,
     NavbarModule,
+    LoginModule,
+    HttpClientModule,
+    HomeModule,
+    ConsultaModule,
+    DocModule
   ],
   providers: [],
   bootstrap: [AppComponent]

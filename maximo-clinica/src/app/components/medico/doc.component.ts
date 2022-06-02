@@ -8,10 +8,7 @@ import { NavigationService } from '../navigation/navigation.service';
 })
 export class DocComponent {
   constructor(
-  
-    private navigation: NavigationService,
-    
-    
+    private navigation: NavigationService
   ) {}
 
   back(): void {

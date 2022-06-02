@@ -1,13 +1,18 @@
 ._navbar{
     background-color: #070707;
 
+    margin-bottom: 65px;
+
     h1{
         font: normal normal 600 28px/28px Poppins;
         color: #cccccc;
     }
+
+    position: sticky;
     }
     ._navbar_body{
     display: flex;
+    flex-direction: row;
     height: 60px;
     align-items: center;
     }

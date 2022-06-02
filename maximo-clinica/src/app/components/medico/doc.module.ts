@@ -14,6 +14,9 @@ import { DocComponent } from './doc.component';
   exports: [
     DocComponent,
 
-  ],
+  ]
 })
-export class DocModule { }
+
+export class DocModule {
+
+}

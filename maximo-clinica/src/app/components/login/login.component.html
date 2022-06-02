@@ -1,8 +1,7 @@
 <div class="sessão">
     <div class="sessao">
         <div class="col-4">
-            <div class="__card_info __spec">
-                    
+            <form [formGroup]="loginForm" class="__card_info __spec" (submit)="login()">               
                     <div class="cb-logo">
                         <img class="logo" src= "">
                         <h1> Login</h1>
@@ -10,12 +9,12 @@
     
                     <div class="form-group">
                         <label> Usuário</label>
-                        <input class="form-control" type="text" placeholder="Digite seu nome">
+                        <input formControlName="login" class="form-control" type="text" placeholder="Digite seu nome">
                     </div>
     
                     <div class="form-group">
                         <label> Senha </label>
-                        <input class="form-control" type="password"> 
+                        <input formControlName="senha" class="form-control" type="password"> 
                         <div class="invalid-feedback">
                         </div>
                     </div>
@@ -26,12 +25,12 @@
                         </label>
                       </div>
                       <div class="form-group">
-                        <button class="btn btn-primary" routerLink="/consulta"> Entrar </button>
+                        <button type="submit" class="btn btn-primary" routerLink="/consulta"> Entrar </button>
                     </div>
             
                 <a class="forgot" href="#"> Esqueci minha senha </a>
     
-            </div>
+                </form>
         </div>
     
     </div>      
