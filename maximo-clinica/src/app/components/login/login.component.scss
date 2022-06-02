@@ -1,0 +1,205 @@
+
+.sessão{
+    background-repeat:no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    
+  }
+  
+  .sessao {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    padding-right: 300px;
+    padding-left: 300px;
+    
+    }
+  
+  :host {
+    position: relative;
+    background-color: #F5F5F5;
+    border-radius: .5rem;
+    
+  }
+  
+  .__card_info {
+    display: block;
+    width: 600px;
+    height: 400px;
+    background: #fff; 
+    background-color: #FAFAFA;
+    width: 100%;    
+    text-align:center;
+    padding: 1.25rem;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    opacity: 1;
+    box-shadow: 0px 4px 6px #00000014;
+    height: 100%; 
+    margin-right: 1rem;
+    height: 100%;
+  }
+  
+  .__spec {
+    span {
+      font: normal normal normal 16px/28px Poppins;
+      color: #616161;
+      margin-left: 1rem;
+    }
+  }
+  
+  .col-12{
+    background-color: #FAFAFA;
+    padding-right: 0;
+    margin: 0;
+  }
+  .col-12{
+    margin: 0;
+  }
+  .secao{
+    margin: 0 auto 0 0;
+      text-decoration: none;
+      display: block;
+      width: 35%;
+      font: normal normal 600 16px/28px Poppins;
+      color: #4F4F4F;
+    background-color: #FAFAFA;
+    padding-top: 40px;
+    padding-right:124px;
+    padding-left: 101px;
+    padding-bottom: 167px;
+  
+  }
+  .navbar{
+    text-transform: capitalize;
+    .logo-voltar{
+      margin-top: 12px;
+      text-transform: capitalize;
+      display: flex;
+      align-items: center;
+    }
+    label{
+      position:absolute;
+        align-items: center;
+        display: flex;
+        margin-top: 12px;
+        margin-left: 15px;
+        margin-right: 340px;
+        font: normal normal normal 14px/28px Poppins;    
+        color: #AAAAAA;
+    }
+  }
+    
+    h1{   
+      align-items: center;
+      margin-top: 28px;
+      font: normal normal bold 25px/28px Poppins;
+      letter-spacing: 0px;
+      color: #616161;
+      opacity: 1;
+  
+    }
+    .form-group {
+      display: flex;
+      flex-wrap: wrap;
+      label {
+        text-align:left;
+        margin-top: 12px;
+        width:100%;
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-poppins);
+        color: var(---neutralcolor-700);
+        opacity: 1;
+      }
+      .logo-senha{
+        margin-top: 55px;
+        display: flex;
+        position: absolute;
+    }
+      input {
+        padding: 12px;
+        border-radius: 4px;
+        border: 1px solid #CFCFCF;
+      
+        &::placeholder {
+          font: normal normal normal 14px/28px Poppins;    
+          color: #AAAAAA;
+      }
+      }
+  }
+  .form-check{
+    align-items: baseline;
+    label {
+      text-align:left;
+      margin-top: 12px;
+      width:100%;
+      font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-poppins);
+      color: var(---neutralcolor-700);
+      opacity: 1;
+    }
+    input {
+      text-align:left;
+      margin-top: 12px;
+      font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-poppins);
+      color: var(---neutralcolor-700);
+      opacity: 1;
+    
+      &::placeholder {
+        font: normal normal normal 14px/28px Poppins;    
+        color: #AAAAAA;
+    }
+    }
+  }
+  .btn{
+    width: 100%;
+      color: #FFFFFF;
+      font: normal normal 600 16px/26px Poppins;
+      background: #212E89;
+      box-shadow: 0px 4px 8px #0000001F;
+      border:0px;
+      border-radius: 4px;
+      padding-top: 11px;
+      padding-bottom: 10px;
+      border-left-width: 2px;
+      margin-top:10px;
+      margin-bottom: 36px;
+  }
+  a{
+      font: normal normal 600 14px/28px Poppins;
+      color: #212E89;
+      text-align: center;
+      top: 481px;
+      left: 211px;
+      width: 152px;
+      height: 20px;
+      text-decoration: none;
+  }
+  
+  
+  .forgot{
+        width: 100%;
+        display:block;
+  }
+  
+  
+  @media only screen and (min-width: 992px) {
+    .secao {
+      padding-top: 40px;
+      padding-right:60px;
+      padding-left: 50px;
+      padding-bottom: 160px;
+      width: 60%;
+    }
+  }
+  
+  @media only screen and (min-width: 1400px) {
+    .secao {
+      padding-top: 40px;
+      padding-right:124px;
+      padding-left: 101px;
+      padding-bottom: 167px;
+    }
+  }
