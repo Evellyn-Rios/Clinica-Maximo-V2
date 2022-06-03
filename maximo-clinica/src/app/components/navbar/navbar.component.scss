@@ -1,7 +1,8 @@
 ._navbar{
     background-color: #070707;
-
-    margin-bottom: 65px;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    margin-bottom: 20px;
 
     h1{
         font: normal normal 600 28px/28px Poppins;
@@ -13,11 +14,12 @@
     ._navbar_body{
     display: flex;
     flex-direction: row;
-    height: 60px;
+    height: 18px;
     align-items: center;
     }
     ._navbar_brand{
     width: 200px;
+    font-size: 0.75rem;
     }
     ._navbar_itens{
     margin: 0 auto 0 0;
@@ -45,5 +47,4 @@
     margin-left: auto;
     width: 200px;
     justify-content: flex-end;
-
     }

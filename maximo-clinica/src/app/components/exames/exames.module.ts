@@ -1,6 +1,5 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { NavbarModule } from '../navbar/navbar.module';
 import { ExamesComponent } from './exames.component';
 
 @NgModule({
@@ -8,8 +7,7 @@ import { ExamesComponent } from './exames.component';
     ExamesComponent
   ],
   imports: [
-    CommonModule,
-    NavbarModule,
+    CommonModule
   ],
   exports: [
     ExamesComponent,
